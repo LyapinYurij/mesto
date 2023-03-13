@@ -1,0 +1,15 @@
+.edit-form__input {
+    border:0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 358px;
+    margin: 0 auto 30px;
+    padding: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .edit-form__input {
+        max-width: 238px;
+        margin: 0 22px 30px;
+    }
+    
+}

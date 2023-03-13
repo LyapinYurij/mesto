@@ -1,0 +1,17 @@
+.page {
+    background: #000000;
+    max-width: 880px;
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width:910px) {
+    .page {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .page {
+        max-width: 282px;
+    }
+}

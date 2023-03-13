@@ -1,0 +1,10 @@
+.profile__flex {
+    display: flex;
+}
+
+@media screen and (max-width:650px) {
+    .profile__flex {
+       margin: 26px auto 0;
+       justify-items: center;
+    }
+}

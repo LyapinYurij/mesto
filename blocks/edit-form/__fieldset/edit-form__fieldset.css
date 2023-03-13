@@ -1,0 +1,14 @@
+.edit-form__fieldset {
+    display: flex;
+    flex-direction: column;
+    border:0;
+    padding: 0;
+    margin: 0 auto 18px;
+}
+
+@media screen and (max-width: 650px) {
+    .edit-form__fieldset {
+        margin: 0 auto 15px;
+    }
+    
+}
