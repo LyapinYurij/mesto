@@ -3,9 +3,10 @@
     width: 22px;
     height: 19px;
     margin: 30px 0;
-    position: absolute;
-    right: 20px;
     cursor: pointer;
+    margin-right: 20px;
+    border: 0;
+    background-color: white;
 }
 
 .elements__like:hover {

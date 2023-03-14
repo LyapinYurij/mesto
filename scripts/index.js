@@ -1,7 +1,7 @@
-let editBtn = document.querySelector('.profile__edit-btn'), overlay = document.querySelector('.overlay'), close =document.querySelector ('.edit-form__close')
+let editBtn = document.querySelector('.profile__edit-btn'), popup = document.querySelector('.popup'), close =document.querySelector ('.edit-form__close')
 
 function openPopup() {
-    overlay.classList.add('popup_opened');
+    popup.classList.add('popup_opened');
     nameInput.value = inputName.textContent;
     jobInput.value = inputJob.textContent;
 }
@@ -9,16 +9,16 @@ function openPopup() {
 editBtn.addEventListener('click', openPopup);
 
 function closePopup() {
-    overlay.classList.remove('popup_opened');
+    popup.classList.remove('popup_opened');
 }
 
 close.addEventListener('click', closePopup);
 
 
-let formElement =  overlay.querySelector(".edit-form");
+let formElement =  popup.querySelector(".edit-form");
 
-let nameInput = overlay.querySelector('.edit-form__input_name');
-let jobInput = overlay.querySelector('.edit-form__input_job');
+let nameInput = popup.querySelector('.edit-form__input_name');
+let jobInput = popup.querySelector('.edit-form__input_job');
 
 
 let inputName = document.querySelector('.profile__name'), inputJob = document.querySelector('.profile__job');

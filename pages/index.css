@@ -30,10 +30,10 @@
 @import url(../blocks/position/__footer/position__footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@import url(../blocks/overlay/overlay.css);
-@import url(../blocks/position/__overlay/position__overlay.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/position/__popup/position__popup.css);
 @import url(../blocks/edit-form/edit-form.css);
-@import url(../blocks/overlay/__container/overlay__container.css);
+@import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/edit-form/__title/edit-form__title.css);
 @import url(../blocks/edit-form/__input/edit-form__input.css);
 @import url(../blocks/edit-form/__fieldset/edit-form__fieldset.css);
