@@ -1,4 +1,4 @@
-let editBtn = document.querySelector('.profile__edit-btn'), popup = document.querySelector('.popup'), close =document.querySelector ('.edit-form__close');
+let editBtn = document.querySelector('.profile__edit-btn'), popup = document.querySelector('.popup'), close =document.querySelector ('.popup__close');
 let formElement =  popup.querySelector(".edit-form");
 let nameInput = popup.querySelector('.edit-form__input_value_name');
 let jobInput = popup.querySelector('.edit-form__input_value_job');
