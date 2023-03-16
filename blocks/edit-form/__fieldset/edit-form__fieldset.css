@@ -6,6 +6,7 @@
     margin: 0 auto 18px;
 }
 
+
 @media screen and (max-width: 650px) {
     .edit-form__fieldset {
         margin: 0 auto 15px;

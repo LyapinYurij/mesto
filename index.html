@@ -11,7 +11,7 @@
         <img class="header__logo" alt="Лого" src="./images/logo.svg">
     </header>
 
-
+    <main>
     <section class="profile position__profile">
         <img class="profile__avatar" alt="Аватар" src="./images/Avatar.jpg">
         <div class="profile__info">
@@ -33,45 +33,46 @@
             <img class="elements__image" alt="Карачаевск" src="./images/Karachaevsk.jpg">
             <div class="elements__description">
                 <h2 class="elements__place">Карачаевск</h2>
-                <button class="elements__like"></button>
+                <button type="button" class="elements__like"></button>
             </div>
         </div>
         <div class="elements__element">
             <img class="elements__image" alt="Карачаевск" src="./images/Karachaevsk.jpg">
             <div class="elements__description">
                 <h2 class="elements__place">Карачаевск</h2>
-                <button class="elements__like"></button>
+                <button type="button" class="elements__like"></button>
             </div>
         </div>
         <div class="elements__element">
             <img class="elements__image" alt="Карачаевск" src="./images/Karachaevsk.jpg">
             <div class="elements__description">
                 <h2 class="elements__place">Карачаевск</h2>
-                <button class="elements__like"></button>
+                <button type="button" class="elements__like"></button>
             </div>
         </div>
         <div class="elements__element">
             <img class="elements__image" alt="Карачаевск" src="./images/Karachaevsk.jpg">
             <div class="elements__description">
                 <h2 class="elements__place">Карачаевск</h2>
-                <button class="elements__like"></button>
+                <button type="button" class="elements__like"></button>
             </div>
         </div>
         <div class="elements__element">
             <img class="elements__image" alt="Карачаевск" src="./images/Karachaevsk.jpg">
             <div class="elements__description">
                 <h2 class="elements__place">Карачаевск</h2>
-                <button class="elements__like"></button>
+                <button type="button" class="elements__like"></button>
             </div>
         </div>
         <div class="elements__element">
             <img class="elements__image" alt="Карачаевск" src="./images/Karachaevsk.jpg">
             <div class="elements__description">
                 <h2 class="elements__place">Карачаевск</h2>
-                <button class="elements__like"></button>
+                <button type="button" class="elements__like"></button>
             </div>
         </div>
     </section>
+    </main>
     
 
     <footer class="footer position__footer">
@@ -80,12 +81,12 @@
 
     <div class="popup position__popup">
         <div class="popup__container">
-            <form class="edit-form">
-                <button class="edit-form__close"></button>
+            <button class="edit-form__close" type="button"></button>
+            <form name="form" class="edit-form" method="post">
                 <h2 class="edit-form__title">Редактировать профиль</h2>
                     <fieldset class="edit-form__fieldset">
-                        <input type="text" class="edit-form__input edit-form__input_name" placeholder="Имя" name="edit-form_name">
-                        <input type="text" class="edit-form__input edit-form__input_job" placeholder="Профессия" name="edit-form_job">
+                        <input type="text" class="edit-form__input edit-form__input_value_name" placeholder="Имя" name="edit-form_name">
+                        <input type="text" class="edit-form__input edit-form__input_value_job" placeholder="Профессия" name="edit-form_job">
                     </fieldset>
                     <button type="submit" class="edit-form__button">Сохранить</button>
             </form>

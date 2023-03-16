@@ -11,6 +11,7 @@
     padding: 0;
 }
 
+
 @media screen and (max-width: 650px) {
     .edit-form__input {
         max-width: 238px;

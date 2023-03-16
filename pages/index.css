@@ -2,14 +2,12 @@
 @import url(../vendor/fonts/font.css);
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/position/position.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/position/__header/position__header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/profile/profile.css);
-@import url(../blocks/position/__profile/position__profile.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__button/profile__button.css);
 @import url(../blocks/profile/__edit-btn/profile__edit-btn.css);
@@ -26,13 +24,11 @@
 @import url(../blocks/elements/__like/elements__like.css);
 @import url(../blocks/elements/__place/elements__place.css);
 
-@import url(../blocks/footer/footer.css);
 @import url(../blocks/position/__footer/position__footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/position/__popup/position__popup.css);
-@import url(../blocks/edit-form/edit-form.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/edit-form/__title/edit-form__title.css);
 @import url(../blocks/edit-form/__input/edit-form__input.css);

@@ -1,7 +1,8 @@
 .profile {
     display: grid;
-    grid-template-columns: 120px 1fr 150px;
+    grid-template-columns: 120px calc(100% - 270px) 150px;
     align-items: center;
+    max-width: 100%;
 }
 
 @media screen and (max-width:650px) {
