@@ -24,7 +24,7 @@
 @media screen and (max-width:650px) {
     .profile__name {
         max-width: 282px;
-        width: 66%;
+        width: 70%;
         margin-left: 46px;
     }
 }
