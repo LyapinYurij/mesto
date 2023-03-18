@@ -6,3 +6,11 @@
     flex-direction: column;
     overflow: hidden;
 }
+
+@media screen and (max-width: 650px) {
+
+    .elements__element {
+        max-width: 282px;
+        justify-self: center;    }
+    
+}
